@@ -9,12 +9,17 @@
 </head>
 
 <body>
-  <section class="top-page">
-    <h1>ERROR 404</h1>
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
   </section>
+
   <nav>
     <?php include "inc/menu.php" ?>
   </nav>
+  <section class="top-page">
+    <h1>ERREUR 404</h1>
+    <img src="img/404.jpg" alt="">
+  </section>
 
 </body>
 

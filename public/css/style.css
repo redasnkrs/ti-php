@@ -34,7 +34,7 @@ body {
 /* Nav bar  */
 nav {
   margin: 10px 0;
-  background-color: antiquewhite;
+  background-color: #d3d3d3;
   padding: 10px 0;
   border-radius: 10px;
   border: 2px solid black;
@@ -49,22 +49,53 @@ nav ul {
 
 nav ul li a:hover {
   color: white;
-  background-color: brown;
+  background-color: #a90a31;
 }
 
 nav ul li a {
   padding: 10px;
   text-decoration: none;
   color: black;
+  transition: all 0.25s;
 }
 
 /* haut de page*/
 
+.top-page img {
+  margin-top: 10px;
+}
+
 .top-page {
   display: flex;
+  border-radius: 10px;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #d3d3d3;
+}
+
+.top-page h1 {
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: #a90a31;
+}
+.top-page p {
+  margin-top: 10px;
+}
+.top-page ul {
+  text-align: center;
+  list-style: none;
+}
+
+.top-page ul li a {
+  text-decoration: none;
+  color: #a90a31;
+}
+
+.top-page .liste-link {
+  margin: 20px 0;
 }
 
 /* page galerie */
@@ -74,6 +105,10 @@ nav ul li a {
   grid-template-columns: repeat(3, 2fr);
   row-gap: 20px;
   column-gap: 10px;
+}
+
+.top-page img {
+  width: 400px;
 }
 
 .top-page .img-grid img {
