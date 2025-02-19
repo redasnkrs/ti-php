@@ -10,8 +10,8 @@
 
 <body>
   <section class="top-page">
-    <h1>Page d'accueil</h1>
-    <img src="img/armoiries.png" alt="">
+    <h1>Hisoire</h1>
+    <img src="img/histoire.jpg" alt="">
     <div class="intro">
       <p>
         Paris est la commune la plus peuplée et la capitale de la France.
