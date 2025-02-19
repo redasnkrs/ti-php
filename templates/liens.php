@@ -9,6 +9,13 @@
 </head>
 
 <body>
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
+  </section>
+
+  <nav>
+    <?php include "inc/menu.php" ?>
+  </nav>
   <section class="top-page">
     <h1>Page d'accueil</h1>
     <img src="img/armoiries.png" alt="">
@@ -26,9 +33,6 @@
       </p>
     </div>
   </section>
-  <nav>
-    <?php include "inc/menu.php" ?>
-  </nav>
 </body>
 
 </html>

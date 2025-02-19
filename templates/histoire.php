@@ -9,13 +9,17 @@
 </head>
 
 <body>
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
+  </section>
+
+  <nav>
+    <?php include "inc/menu.php" ?>
+  </nav>
   <section class="top-page">
     <h1>Hisoire</h1>
     <img src="img/histoire.jpg" alt="">
   </section>
-  <nav>
-    <?php include "inc/menu.php" ?>
-  </nav>
   <section class="intro">
     <p>
       Préhistoire et Antiquité

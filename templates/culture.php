@@ -9,14 +9,17 @@
 </head>
 
 <body>
-  <section class="top-page">
-    <h1>Culture</h1>
-    <img src="img/culture.jpg" alt="">
-
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
   </section>
+
   <nav>
     <?php include "inc/menu.php" ?>
   </nav>
+  <section class="top-page">
+    <h1>Culture</h1>
+    <img src="img/culture.jpg" alt="">
+  </section>
   <section class="intro">
     <p>
       Manifestations culturelles et festivités

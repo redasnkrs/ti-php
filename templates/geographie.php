@@ -9,14 +9,18 @@
 </head>
 
 <body>
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
+  </section>
+
+  <nav>
+    <?php include "inc/menu.php" ?>
+  </nav>
   <section class="top-page">
     <h1>Géographie</h1>
     <img src="img/geographie.png" alt="">
 
   </section>
-  <nav>
-    <?php include "inc/menu.php" ?>
-  </nav>
   <section class="intro">
     <p>
       Paris se situe au cœur d'un vaste bassin sédimentaire aux sols fertiles et au climat tempéré, le bassin parisien, sur une boucle de la Seine, entre les confluents de celle-ci avec la Marne et l'Oise.

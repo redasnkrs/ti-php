@@ -9,6 +9,13 @@
 </head>
 
 <body>
+  <section class="bann">
+    <?php include "inc/banniere.php" ?>
+  </section>
+
+  <nav>
+    <?php include "inc/menu.php" ?>
+  </nav>
   <section class="top-page">
     <h1>Galerie</h1>
     <div class="img-grid">
@@ -20,9 +27,6 @@
       <img src="img/480px_Tuileries-Roue.jpg" alt="">
     </div>
   </section>
-  <nav>
-    <?php include "inc/menu.php" ?>
-  </nav>
 </body>
 
 </html>
