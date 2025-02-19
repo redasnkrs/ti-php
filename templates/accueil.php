@@ -30,7 +30,7 @@
     <?php include "inc/menu.php" ?>
   </nav>
   <section class="link-wiki">
-    https://fr.wikipedia.org/wiki/Paris
+    <a href="https://fr.wikipedia.org/wiki/Paris" target="_blank">https://fr.wikipedia.org/wiki/Paris</a>
   </section>
 </body>
 
