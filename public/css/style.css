@@ -146,29 +146,47 @@ nav ul li a:hover {
 
 /* formulaire */
 
-.fomulaire {
-  width: 100%;
+.contact-form {
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 350px;
+}
+
+.row {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
 
 label {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-input {
-  margin-right: 40px;
-  height: 15px;
-  width: 250px;
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 textarea {
+  height: 80px;
   resize: none;
 }
 
-.fomulaire .row {
-}
-
-form {
-  display: flex;
-  flex-direction: column;
+.submit-btn {
+  width: 100%;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 /* les liens */

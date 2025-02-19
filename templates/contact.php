@@ -21,30 +21,30 @@
     <h1>Pour nous contacter</h1>
     <img src="img/contacts.jpg" alt="">
     <div class="formulaire">
-      <form action="">
+      <form action="" class="contact-form">
         <div class="row">
-          <label for="nom">Nom:</label>
-          <input type="text">
+          <label for="nom">NOM :</label>
+          <input type="text" id="nom" name="nom">
         </div>
         <div class="row">
-          <label for="prenom">Prenom:</label>
-          <input type="text">
+          <label for="prenom">PRENOM :</label>
+          <input type="text" id="prenom" name="prenom">
         </div>
         <div class="row">
-          <label for="prenom">Ville:</label>
-          <input type="text">
+          <label for="ville">VILLE :</label>
+          <input type="text" id="ville" name="ville">
         </div>
         <div class="row">
-          <label for="email">E-MAIL:</label>
-          <input type="text">
+          <label for="email">E-MAIL :</label>
+          <input type="email" id="email" name="email">
         </div>
         <div class="row">
-          <label for="commentaire">Commentaire:</label>
+          <label for="commentaire">COMMENTAIRES :</label>
+          <textarea id="commentaire" name="commentaire"></textarea>
         </div>
-        <textarea name="commentaire" id="comm"></textarea>
-
-        <input type="submit" value="Envoyer votre message">
+        <input type="submit" value="Envoyer votre message" class="submit-btn">
       </form>
+
     </div>
   </section>
 
