@@ -5,5 +5,20 @@
 }
 
 body {
+  margin-left: auto;
+  margin-right: auto;
   width: 1280px;
+}
+
+/* Accueil */
+
+.top-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-page .intro {
+  /* text-align: center; */
 }
