@@ -69,6 +69,10 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+.pm {
+  margin-bottom: 25px;
+}
+
 .top-page {
   display: flex;
   border-radius: 10px;
