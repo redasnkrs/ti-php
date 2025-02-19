@@ -19,6 +19,8 @@
   <section class="top-page">
     <h1>ERREUR 404</h1>
     <img src="img/404.jpg" alt="">
+    <h3>Euh, la page demandée est introuvable !</h3>
+    <p>Le mieux est de retourner a l'accueil.</p>
   </section>
 
 </body>
