@@ -19,13 +19,34 @@
   <section class="top-page">
     <h1>Galerie</h1>
     <div class="img-grid">
-      <img src="img/480px_Arcdetriomphe.jpg" alt="">
-      <img src="img/480px_La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques.jpg" alt="">
-      <img src="img/480px_Palais_Royal_station_entrance.jpg" alt="">
-      <img src="img/480px_Paris_Opera_full_frontal_architecture.jpg" alt="">
-      <img src="img/480px_Petit_Palais_Paris.jpg" alt="">
-      <img src="img/480px_Tuileries-Roue.jpg" alt="">
+      <div class="item">
+        <img src="img/480px_Arcdetriomphe.jpg" alt="Arc de Triomphe">
+        <p>Arc de Triomphe</p>
+      </div>
+      <div class="item">
+        <img src="img/480px_La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques.jpg" alt="Tour Eiffel">
+        <p>Tour Eiffel</p>
+      </div>
+      <div class="item">
+        <img src="img/480px_Palais_Royal_station_entrance.jpg" alt="Palais Royal">
+        <p>Palais Royal</p>
+      </div>
+      <div class="item">
+        <img src="img/480px_Paris_Opera_full_frontal_architecture.jpg" alt="Opéra de Paris">
+        <p>Opéra de Paris</p>
+      </div>
+      <div class="item">
+        <img src="img/480px_Petit_Palais_Paris.jpg" alt="Petit Palais de Paris">
+        <p>Petit Palais de Paris</p>
+      </div>
+      <div class="item">
+        <img src="img/480px_Tuileries-Roue.jpg" alt="Tuileries">
+        <p>Tuileries</p>
+      </div>
     </div>
+
+
+
   </section>
 </body>
 
