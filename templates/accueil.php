@@ -26,7 +26,12 @@
       </p>
     </div>
   </section>
-  <nav></nav>
+  <nav>
+    <?php include "inc/menu.php" ?>
+  </nav>
+  <section class="link-wiki">
+    https://fr.wikipedia.org/wiki/Paris
+  </section>
 </body>
 
 </html>
