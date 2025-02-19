@@ -33,10 +33,10 @@
     <p>Dans ce site, vous trouverez diverses informations concernant :</p>
     <div class="liste-link">
       <ul>
-        <li><a href="./">Une brève présentation de Bruxelles sur son rôle en Belgique et dans le monde</a></li>
+        <li><a href="?p=geo">Une brève présentation de Bruxelles sur son rôle en Belgique et dans le monde</a></li>
         <li><a href="?p=hist">Un rappel historique, de sa fondation à aujourd'hui</a></li>
         <li><a href="?p=cult">Un tour d'horizon en matière d'art et culture</a></li>
-        <li><a href="?p=geo">Une galerie de photographies</a></li>
+        <li><a href="?p=gal">Une galerie de photographies</a></li>
         <li><a href="?p=form">un formulaire pour nous contacter</a></li>
         <li><a href="?p=link">Des liens vers des sites partenaires</a></li>
       </ul>
