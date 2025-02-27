@@ -46,8 +46,8 @@
 
     <p class="pm">Sources : <a href="https://fr.wikipedia.org/wiki/Paris" target="_blank">wikipedia</a> - Ville de Paris</p>
 
-  </section>
 
+  </section>
 </body>
 
 </html>
